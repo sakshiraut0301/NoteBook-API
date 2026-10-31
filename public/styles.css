@@ -1,0 +1,35 @@
+body {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 5px 0 15px;
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+hr { margin: 30px 0; }
+.note { margin: 15px 0; padding: 15px; border: 1px solid #bbb; }
+.note h3 { margin: 0; }
+.note p { white-space: pre-wrap; }
+.date { color: #666; font-size: 0.9rem; }
+.danger { color: #a00; }
+.secondary, .hidden { display: none; }
+#message { min-height: 24px; }
+#message.error { color: #a00; }
+.empty { color: #666; }
